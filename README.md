@@ -9,7 +9,12 @@ This project was developed using:
 - CSS
 - [Tailwind](https://tailwindcss.com/)
 
+
+You can check the live site here: https://verdant-taiyaki-5e1563.netlify.app/
+
+
 ![Badge](.github/print.png)
+
 
 <h2>
   📌 To have a copy of the project
