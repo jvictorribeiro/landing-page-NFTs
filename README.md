@@ -5,8 +5,8 @@ This project show a landing page about NFTs where the user can buy, sell and col
 ## 🧭 Tecnologies
 
 This project was developed using:
-- [HTML]()
-- [CSS])
+- [HTML]
+- [CSS]
 - [Tailwind](https://tailwindcss.com/)
 
 ![Badge](.github/print.png)
