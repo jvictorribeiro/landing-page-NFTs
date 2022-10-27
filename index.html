@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket-NFTs</title>
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          sans: ['Montserrat', 'sans-serif']
+        },
+        extend: {
+          width: {
+            '128': '32rem',
+          },
+          backgroundImage: {
+            background: "url('./assets/background.png')",
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background bg-contain ">
+  <header class="flex text-white justify-around pt-14 items-center">
+    <a class="font-bold text-4xl">Rocket <span class="text-[#FF5B50]">NFTs</span></a>
+    <nav class="flex gap-16 font-normal">
+      <a class="hover:text-[#FF5B50]" href="">Comprar NFT</a>
+      <a class="hover:text-[#FF5B50]" href="">Sobre</a>
+      <a class="hover:text-[#FF5B50]" href="">FAQ</a>
+    </nav>
+    <button class="flex gap-4 items-center bg-white text-black font-bold p-4 hover:bg-gray-200">
+      <img src="./assets/logo_MetaMask.svg" alt="Botão conectar carteira">
+      Conectar carteira
+    </button>
+  </header>
+
+  <main>
+    <section class="pt-24">
+      <div class="flex text-white justify-around px-16 item mb-24">
+        <div class="flex flex-col w-96 gap-14">
+          <p class="text-lg font-normal">Mercado digital para colecionáveis em criptos e tokens não fungível (NFT). 
+            Compre, venda e descubra ativos digitais exclusivos para você.</p>
+  
+          <div class="flex">
+            <img src="./assets/group-avarts.png" alt="Logo grupo de avatars">
+            <div class="flex flex-col justify-end ml-1 text-lg">
+              <p class="font-bold">+10</p>
+              <p class="font-normal">Artistas selecionados</p>
+            </div>
+          </div>
+        </div>
+        
+        <h1 class="text-white font-bold text-5xl w-128 leading-snug">
+          Descubra a verdadeira arte digital e colecione diversas 
+          <span class="text-[#FF5B50]">NFTs</span>
+        </h1>
+  
+        <img src="./assets/badge.svg" alt="">
+      </div>
+
+      <div class="flex justify-center gap-24 mb-14 ">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-1.png" alt="">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-2.png" alt="">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-3.png" alt="">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-4.png" alt="">
+      </div>
+      <div class="flex justify-center gap-24">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-5.png" alt="">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-6.png" alt="">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-7.png" alt="">
+        <img class="border-[#5A5757] border-2" src="./assets/galeria-8.png" alt="">
+      </div>
+    </section>
+    
+    <section class="bg-black flex justify-between pl-24 border-2 border-black border-b-[#5A5757]">
+      <div class="flex flex-col justify-around gap-14 pt-24 px-10">
+        <div class="font-semibold">
+          <h3 class="text-white text-5xl ">10k+</h3>
+          <p class="text-[#5A5757] text-xl">Artes</p>
+        </div>
+        <div class="font-semibold">
+          <h3 class="text-white text-5xl">200k+</h3>
+          <p class="text-[#5A5757] text-xl">Vendas</p>
+        </div>
+        <div class="font-semibold">
+          <h3 class="text-white text-5xl">20</h3>
+          <p class="text-[#5A5757] text-xl">Artistas</p>
+        </div>
+      </div>
+      
+      <div class="ml-16 pt-24 flex flex-col justify-between border-2 border-black border-l-[#5A5757]">
+        <div class="flex text-white mb-16 justify-center gap-40">
+          <div class="flex flex-col gap-16 w-1/3 pl-10">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id 
+              <span class="underline text-[#FF5B50]">potenti diam</span>  
+              et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.
+            </p>
+            <p class="underline">Lorem ipsum</p>
+          </div>
+          <div class="flex flex-col gap-16 w-1/3 pl-14">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id 
+              <span class="underline text-[#FF5B50]">potenti diam</span>  
+              et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.
+            </p>
+            <p class="underline">Lorem ipsum</p>
+          </div>
+        </div>
+        <img class="justify-self-end" src="./assets/banner.png" alt="">
+      </div>
+    </section>
+
+    <section class="bg-black pt-24 flex flex-col px-16">
+      <h2 class="text-white font-bold text-4xl mb-24 m-auto"> <span class="text-[#FF5B50]">Populares</span> da semana</h2>
+      <div class="flex justify-around">
+        <div class="flex flex-col gap-16">
+          <div class="text-white">
+            <div class="flex justify-between items-center mb-8">
+              <h3 class="font-normal text-3xl">Astonauta 1</h3>
+              <img class="w-6 h-6" src="./assets/arrow-white.svg" alt="arrow-white">
+            </div>
+            <div class="flex justify-between items-center mb-6">
+              <h4 class="font-semibold text-md text-[#5A5757]">Mayk Brito </h4>
+              <p class="text-[#FF5B50]">1.50 RKT</p>
+            </div>
+            <img src="./assets/astronauta 1.png" alt="">
+          </div>
+
+          <div class="text-white">
+            <div class="flex justify-between items-center mb-8">
+              <h3 class="font-normal text-3xl">Astonauta 3</h3>
+              <img class="w-6 h-6" src="./assets/arrow-white.svg" alt="arrow-white">
+            </div>
+            <div class="flex justify-between items-center mb-6">
+              <h4 class="font-semibold text-md text-[#5A5757]">Mayk Brito </h4>
+              <p class="text-[#FF5B50]">1.50 RKT</p>
+            </div>
+            <img src="./assets/astronauta-3.png" alt="">
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-16">
+          <div class="text-white">
+            <div class="flex justify-between items-center mb-8">
+              <h3 class="font-normal text-3xl">Astonauta 2</h3>
+              <img class="w-6 h-6" src="./assets/arrow-white.svg" alt="arrow-white">
+            </div>
+            <div class="flex justify-between items-center mb-6">
+              <h4 class="font-semibold text-md text-[#5A5757]">Jakelyne Brito </h4>
+              <p class="text-[#FF5B50]">1.50 RKT</p>
+            </div>
+            <img src="./assets/astronauta-2.png" alt="">
+          </div>
+
+          <div class="text-white">
+            <div class="flex justify-between items-center mb-8">
+              <h3 class="font-normal text-3xl">Astonauta 4</h3>
+              <img class="w-6 h-6" src="./assets/arrow-white.svg" alt="arrow-white">
+            </div>
+            <div class="flex justify-between items-center mb-6">
+              <h4 class="font-semibold text-md text-[#5A5757]">Tamires Fernandes </h4>
+              <p class="text-[#FF5B50]">1.50 RKT</p>
+            </div>
+            <img src="./assets/astronauta-4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-40 bg-black flex flex-col">
+      <h2 class="text-white font-bold text-4xl mb-24 m-auto">Melhores <span class="text-[#FF5B50]">artistas</span></h2>
+      <div class="grid gap-24 grid-cols-3 grid-rows-2">
+        <div class="flex items-center bg-[#252525] p-6 w-3/4">
+          <img src="./assets/artista-1.png">
+          <div class="flex flex-col ml-10 gap-2">
+            <span class="text-white">Andrew Alfred</span>
+            <span class="text-[#FF5B50]">Technical advisor</span>
+          </div>
+        </div>
+        <div class="flex items-center bg-[#FF5B50] p-6 w-3/4">
+          <img src="./assets/artista-2.png">
+          <div class="flex flex-col ml-10 text-white gap-2">
+            <span>Andrew Alfred</span>
+            <span>Technical advisor</span>
+          </div>
+        </div>
+        <div class="flex items-center bg-[#252525] p-6 w-3/4">
+          <img src="./assets/artista-3.png">
+          <div class="flex flex-col ml-10 gap-2">
+            <span class="text-white">Andrew Alfred</span>
+            <span class="text-[#FF5B50]">Technical advisor</span>
+          </div>
+        </div>
+        <div class="flex items-center bg-[#252525] p-6 w-3/4">
+          <img src="./assets/artista-4.png">
+          <div class="flex flex-col ml-10 gap-2">
+            <span class="text-white">Andrew Alfred</span>
+            <span class="text-[#FF5B50]">Technical advisor</span>
+          </div>
+        </div>
+        <div class="flex items-center bg-[#252525] p-6 w-3/4">
+          <img src="./assets/artista-5.png">
+          <div class="flex flex-col ml-10 gap-2">
+            <span class="text-white">Andrew Alfred</span>
+            <span class="text-[#FF5B50]">Technical advisor</span>
+          </div>
+        </div>
+        <div class="flex items-center bg-[#252525] p-6 w-3/4">
+          <img src="./assets/artista-6.png">
+          <div class="flex flex-col ml-10 gap-2">
+            <span class="text-white">Andrew Alfred</span>
+            <span class="text-[#FF5B50]">Technical advisor</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-5 items-center m-auto mt-16">
+        <a class="font-normal text-white hover:text-[#FF5B50]" href="">Ver todos os artistas</a>
+        <img class="w-4 h-4" src="./assets/arrow-orange.svg" alt="arrow-orange">
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 px-40">
+    <div class="flex justify-between pt-14">
+      <h2 class="text-white font-bold text-4xl">Rocket <span class="text-[#FF5B50]">NFTs</span></h2>
+      <button class="bg-[#FF5B50] p-4">
+        <img src="./assets/arrow-black.svg" alt="">
+      </button>
+    </div>
+
+    <div class="flex justify-between mt-14 py-10">
+      <div>
+        <h3 class="text-white font-bold text-3xl mb-7">Fique por dentro de 
+          <br> 
+          <span class="text-[#FF5B50]">todas as novidades</span> 
+        </h3>
+        <div class="flex items-center">
+          <input class="bg-[#0D0D0D] w-72 h-16 items-center text-center text-[#5A5757]" type="text" name="" id="" placeholder="nft@rocketseat.com.br">
+          <input class="bg-white h-16 w-32 font-bold text-xl" type="submit" value="Enviar!">
+        </div>
+      </div>
+
+      <div class="grid gap-x-32 gap-y-4 grid-cols-3 grid-rows-5 text-xl font-[#5A5757] mr-10 ">
+        <a class="font-bold text-white" href="">Empresa</a>
+        <a class="font-bold text-white" href="">Mapa</a>
+        <a class="font-bold text-white" href="">Links</a>
+        
+        <a href="">Sobre</a>
+        <a href="">Galeria</a>
+        <a href="">FAQs</a>
+
+        <a href="">Sobre</a>
+        <a href="">Galeria</a>
+        <a href="">FAQs</a>
+
+        <a href="">Sobre</a>
+        <a href="">Galeria</a>
+        <a href="">FAQs</a>
+
+        <a href="">Sobre</a>
+        <a href="">Galeria</a>
+        <a href="">FAQs</a>
+      </div>
+    </div>
+
+    <div class="flex justify-between py-20">
+      <div class="text-[#5A5757] font-md">www.rocketseat.com.br</div>
+      <div class="flex gap-8">
+        <img src="./assets/instagram.svg" alt="">
+        <img src="./assets/youtube.svg" alt="">
+        <img src="./assets/twitter.svg" alt="">
+        <img src="./assets/email.svg" alt="">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
